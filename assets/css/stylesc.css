@@ -1,0 +1,284 @@
+/*-----------------------------------------------------------------------------------
+Template Name: New HTML5 Template,
+Template URI: http://www.themectg.com
+Description: This is html5 template
+Author: Themectg
+Author URI: http://www.themectg.com
+Version: 1.0
+-----------------------------------------------------------------------------------
+CSS INDEX
+===================
+1. Google font
+2. Theme Default CSS
+3. Helper-class
+4. Button-style
+5. Mainmenu-area
+6. Section-Background
+7. Header-style
+8. Headline-style
+9. Skills-area
+10. Service-area
+11. Work-area
+12. Team-area
+13. Bar-effect-css
+14. Masp style
+15. Form-style
+16. Scroll-To-Top-Button
+17. Preloader-css
+-----------------------------------------------------------------------------------*/
+
+#tf-works {
+    padding: 0px 0;
+}
+
+.categories {
+    padding: 10px 0;
+}
+
+ul.cat li,
+ul.catp li {
+    display: inline-block;
+}
+
+#tf-works li.pull-right {
+    margin-top: 10px;
+}
+
+ol.type li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ol.type li:after {
+    content: ' | ';
+    margin-left: 20px;
+}
+
+ol.type li:last-child:after {
+    content: '';
+}
+
+ol.type li a {
+    color: #222222
+}
+
+ol.type li a.active {
+    font-weight: 700;
+}
+
+.isotope-item {
+    z-index: 2
+}
+
+.isotope-hidden.isotope-item {
+    z-index: 1
+}
+
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+
+.isotope-item {
+    margin-right: -1px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.isotope {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-item .hover-bg {
+    height: 260px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 25% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.hover-bg .hover-text>h4 {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+
+}
+
+.hover-bg:hover .hover-text>h4 {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.hover-bg .hover-text>i {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text>i {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.hover-bg:hover .hover-text {
+    opacity: 1;
+}
+
+#tf-works i.fa {
+    height: 30px;
+    width: 30px;
+    border: 1px solid #FCAC45;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    color: #FCAC45;
+}
+
+.single-team {
+    background-color: #ffffff;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #515656;
+    text-align: center;
+    position: relative;
+    -webkit-box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 30px -10px rgba(0, 0, 0, 0.3);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+.single-team:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px)
+}
+
+.single-team .team-photo {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.single-team .team-photo img {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.single-team:hover .team-photo img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.single-team h4 {
+    text-transform: uppercase;
+}
+
+.single-team h6 {
+    margin-bottom: 20px;
+}
+
+.single-team .social-menu {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: absolute;
+    bottom: -80px;
+    left: 0;
+    width: 100%;
+    padding: 23px 10px;
+    background-color: #ffffff;
+}
+
+.single-team:hover .social-menu {
+    bottom: 0;
+}
+
+.ih-item.circle.effect20 .info h3 {
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    font-size: 12px;
+    line-height: 1.3em;
+    margin: 0 27px;
+    padding: 65px 0 0 0;
+    height: 110px;
+    /*text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);*/
+}
+
+.horizontal-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ih-item.circle .img:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /*box-shadow: inset 0 0 0 8px rgba(255, 255, 255, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;*/
+}
+
+
+
+.marginhandle h4 {
+    margin-top: 15px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: 100%;
+}
+
+.hover-text h4 {
+    font-size: 20px;
+    text-align: center;
+}
