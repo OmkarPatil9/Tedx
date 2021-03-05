@@ -63,6 +63,8 @@
             currentClass: 'active'
     }); 
 
+   
+
     /* Counter
     ========================================================*/
     $('.counterUp').counterUp({
@@ -90,6 +92,9 @@
         return false;
       });
 
-  });      
+  });   
+
+
 
 }(jQuery));
+
