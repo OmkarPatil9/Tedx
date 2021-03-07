@@ -487,6 +487,7 @@ a.back-to-top:focus {
 }
 
 @-webkit-keyframes sk-circleBounceDelay {
+
   0%,
   80%,
   100% {
@@ -501,6 +502,7 @@ a.back-to-top:focus {
 }
 
 @keyframes sk-circleBounceDelay {
+
   0%,
   80%,
   100% {
@@ -666,7 +668,7 @@ a.back-to-top:focus {
   position: relative;
 }
 
-.navbar-expand-lg .navbar-nav li > a:before {
+.navbar-expand-lg .navbar-nav li>a:before {
   content: "";
   position: absolute;
   top: 19px;
@@ -696,7 +698,7 @@ a.back-to-top:focus {
 }
 
 .navbar-expand-lg .navbar-nav li a:hover,
-.navbar-expand-lg .navbar-nav li .active > a,
+.navbar-expand-lg .navbar-nav li .active>a,
 .navbar-expand-lg .navbar-nav li a:focus {
   background-image: linear-gradient(65deg, #cd0000 0, #cd0000 100%);
   -webkit-background-clip: text;
@@ -876,7 +878,7 @@ a.back-to-top:focus {
   display: table;
 }
 
-.about-content > div {
+.about-content>div {
   vertical-align: middle;
   display: table-cell;
 }
@@ -2636,4 +2638,15 @@ footer {
 
 .btn-spk {
   display: flex;
+}
+
+.btn-toolbar {
+  justify-content: center;
+}
+
+
+.btn {
+  border: 5px;
+  border-color: #f1f1f1;
+
 }
